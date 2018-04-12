@@ -1,0 +1,64 @@
+<!--
+<body>
+  <h3>Formulário de Cadastro de Clientes</h3><br>
+  <form name="Cadastro" action="cadastrar.php" method="POST">
+   
+    <label>Nome do Cliente: </label>
+        <input type="text" name="NomeCliente" size="30"><br>
+    <label>Senha: </label>
+        <input type="password" name="SobrenomeCliente" size="45"><br>
+    <label>Email </label>
+         <input type="text" name="Email" size="45"><br>
+    
+    <input type="submit" name="enviar" value="Enviar">
+  </form>
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Testando conexão ao banco de dados</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Formulario</h2>
+  <form name="Cadastro" action="cadastrar.php" method="POST">
+      
+    <div class="form-group">
+      <label for="email">Nome:</label>
+      <input type="text" class="form-control" id="email" placeholder="Entre com nome" name="NomeCliente">
+    </div>
+    
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email.." name="Email">
+    </div>
+    
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="SobrenomeCliente">
+    </div>
+    
+    
+    <!--<div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    -->
+    
+    <button type="submit" name="enviar" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
